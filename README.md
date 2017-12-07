@@ -15,6 +15,10 @@ and uses settings from this in order to enable qtwebengine
 
     http://www.jumpnowtek.com/rpi/Enabling-Qt5-WebEngine-in-Yocto-Builds.html
 
+include dualbro and qtwebengine in Your build/local.conf like this:
+ 
+IMAGE_INSTALL_append = " dualbro qtwebengine"
+
 it should leave a program to run here:
 
     /opt/dualbro/bin/dualbro
