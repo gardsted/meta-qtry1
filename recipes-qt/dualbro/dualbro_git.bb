@@ -16,7 +16,7 @@ SRC_URI = "git://github.com/gardsted/dualbro.git;protocol=https"
 
 # Modify these as desired
 PV = "1.0+git${SRCPV}"
-SRCREV = "c9c9e67946bf9e9a9c91c1606712a45e9a891088"
+SRCREV = "2e891bb4bac0c3920d0ab79b2efe835474a75316"
 
 S = "${WORKDIR}/git"
 
